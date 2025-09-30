@@ -33,6 +33,13 @@ FROM hr.employees
 GROUP BY job_id;
 
 
+-- 6. Find the average salary for each job role
+-- This query calculates the average salary for employees in each job role.
+SELECT job_id, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY job_id;
+
+
 -- 7. Find the maximum salary for each job role
 -- This query finds the highest salary assigned to employees for each job role.
 SELECT job_id, MAX(salary) AS max_salary
