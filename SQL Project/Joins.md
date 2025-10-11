@@ -1,6 +1,6 @@
 # 🧩 Oracle SQL Queries Using Different Types of Joins on Employee Table
 
-This collection demonstrates how to use different types of SQL joins in **Oracle SQL** with the `EMPLOYEES` table and related tables such as `DEPARTMENTS`, `PROJECTS`, `LOCATIONS`, and others.
+This document contains **30 practical Oracle SQL queries** demonstrating the use of various **JOIN types** on an `employees` table and related tables (`departments`, `projects`, `jobs`, etc.).
 
 ---
 -- 1. Retrieve employee names and their department names using INNER JOIN
@@ -171,4 +171,3 @@ INNER JOIN projects p ON e.employee_id = p.employee_id
 INNER JOIN departments d ON e.department_id = d.department_id
 INNER JOIN locations l ON p.location_id = l.location_id
 WHERE d.location_id <> p.location_id;
-
