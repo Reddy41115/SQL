@@ -2,7 +2,6 @@
 
 This document contains **30 practical Oracle SQL queries** demonstrating the use of various **JOIN types** on an `employees` table and related tables (`departments`, `projects`, `jobs`, etc.).
 
----
 -- 1. Retrieve employee names and their department names using INNER JOIN
 SELECT e.employee_id, e.employee_name, d.department_name
 FROM employees e
